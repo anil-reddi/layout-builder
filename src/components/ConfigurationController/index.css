@@ -1,0 +1,43 @@
+.controller-container {
+  background-color: #475569;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.responsive-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 80%;
+  max-width: 480px;
+}
+@media screen and (min-width: 768px) {
+  .responsive-container {
+    max-width: 1110px;
+  }
+}
+.layout-heading {
+  color: #ffffff;
+  font-size: 26px;
+  font-family: 'Roboto';
+  font-weight: 600;
+}
+@media screen and (min-width: 768px) {
+  .layout-heading {
+    font-size: 36px;
+  }
+}
+.input-container {
+  display: flex;
+  align-items: center;
+  margin-top: 12px;
+}
+.label-text {
+  color: #ffffff;
+  font-size: 15px;
+  font-family: 'Roboto';
+  margin-left: 10px;
+}
